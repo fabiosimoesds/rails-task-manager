@@ -1,7 +1,3 @@
 <h1>Edit Task</h1>
 
-<%= form_for(@task) do |f| %>
-  Task Title: <%= f.text_field :title %><br />
-  Task Details : <%= f.text_area :details, size: "50x3" %><br />
-  <%= f.submit %>
-<% end %>
+<%= render "form" %>
